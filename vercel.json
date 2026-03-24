@@ -1,0 +1,23 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
+```
+
+---
+
+## 6. `.env`
+```
+VITE_SUPABASE_URL=https://qgtogfrimmenxmplyolb.supabase.co
+VITE_SUPABASE_ANON_KEY=paste_your_anon_key_here
+```
+
+---
+
+## 7. `.gitignore`
+```
+node_modules/
+dist/
+.env
+.env.local
+.vite/
+.DS_Store
