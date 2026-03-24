@@ -1,9 +1,6 @@
 {
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
-```
-
----
 
 ## 6. `.env`
 ```
